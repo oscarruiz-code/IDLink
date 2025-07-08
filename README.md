@@ -1,77 +1,34 @@
-# 🛡️ IDLink – Plataforma de identidad digital inteligente
-
-**IDLink** es una plataforma moderna y unificada para la gestión de identidades digitales, diseñada para particulares y empresas que buscan una solución segura, escalable y preparada para el futuro del acceso digital.
-
-> 🔐 Centraliza tus accesos.  
-> 🤝 Controla identidades en tu empresa.  
-> 🌐 Integra el futuro de la Web5 y la descentralización.
+# IDLink – Plataforma inteligente de gestión de identidades digitales
 
 ---
 
-## 📌 Objetivo
+## 📌 Descripción
 
-Facilitar la gestión, el uso y la auditoría de accesos digitales mediante una plataforma:
-
-- Multiplataforma (web + móvil)
-- Segura por diseño
-- Extensible e integrable
-- Compatible con tecnologías de identidad emergentes (Passkeys, DID, WebAuthn)
+IDLink es una plataforma multiplataforma (móvil y web) diseñada para unificar y simplificar la gestión de identidades digitales y accesos personales y corporativos.  
+Permite a usuarios particulares y empresas organizar, compartir y proteger sus credenciales digitales usando tecnologías modernas como passkeys, biometría, login federado y análisis avanzado.
 
 ---
 
-## 🧠 Casos de uso
+## 🚀 Características principales
 
-### Para usuarios individuales
-- Gestor de accesos personales cifrados
-- Login con passkeys y verificación biométrica
-- Compartición segura de accesos temporales
-- Panel de alertas por accesos sospechosos
-
-### Para organizaciones
-- Gestión de usuarios, roles y permisos
-- Asignación/revocación de accesos a servicios internos y externos
-- Auditorías y logs de actividad en tiempo real
-- Integración con SSO y herramientas colaborativas (Google Workspace, GitHub, etc.)
+- Gestión centralizada de accesos digitales (apps, sitios, wallets, etc.)
+- Control de permisos y roles para usuarios y empleados
+- Autenticación con tecnologías avanzadas: biometría, passkeys, QR login
+- Análisis de patrones y detección de accesos anómalos mediante IA
+- Accesos temporales colaborativos con control total
+- Integración con plataformas externas (Google Workspace, Slack, Github, etc.)
+- Preparada para identidad digital descentralizada (Web5/DID)
 
 ---
 
-## 🧱 Arquitectura técnica
+## 🧱 Tecnologías usadas
 
-| Componente        | Descripción                                                 |
-|------------------|-------------------------------------------------------------|
-| `Flutter`         | Frontend multiplataforma (móvil + web)                      |
-| `Spring Boot (Kotlin)` | Backend REST API segura, modular y extensible             |
-| `Java`            | Motor de análisis de comportamiento y accesos anómalos      |
-| `Docker`          | Contenerización y orquestación de microservicios           |
-| `Clever Cloud`    | Despliegue cloud escalable y administración de PostgreSQL  |
+| Tecnología         | Uso principal                                  |
+|--------------------|------------------------------------------------|
+| Flutter            | Desarrollo multiplataforma móvil y web         |
+| Kotlin + Spring Boot | Backend API seguro y escalable                  |
+| Java               | Motor de análisis y detección de anomalías     |
+| Docker             | Contenerización para desarrollo y despliegue   |
+| Clever Cloud       | Hosting, base de datos y escalabilidad          |
 
----
-
-## ⚙️ Tecnologías clave
-
-- Flutter 3.x
-- Kotlin + Spring Boot 3.x
-- Java 21 (motor de análisis)
-- PostgreSQL 15+
-- Docker + docker-compose
-- Autenticación JWT + cifrado AES256
-- Biometría local (`local_auth`) + futura integración WebAuthn/Passkeys
-
----
-
-## 🚀 Estado del proyecto
-
-> 🧪 Fase: Diseño de MVP y validación técnica
-
-**✅ MVP funcionalidades básicas:**
-- [x] Registro/Login seguro
-- [x] Gestor de accesos cifrado
-- [x] Compartición temporal
-- [ ] Roles y permisos para empresas
-- [ ] Logs de acceso con IA
-- [ ] Despliegue completo en Clever Cloud
-
----
-
-## 📁 Estructura del repositorio
 
