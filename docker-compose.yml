@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: ./frontend_flutter
+    ports:
+      - "3000:80"
+
+  backend:
+    build: ./backend-api
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+
+  java-engine:
+    build: ./java-engine
+    ports:
+      - "9090:9090"
